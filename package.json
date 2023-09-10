@@ -1,0 +1,23 @@
+{
+  "name": "mustache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server --open",
+    "build": "webpack"
+  },
+  "author": "YuanJie",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/parse5": "^7.0.0",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2"
+  }
+}
